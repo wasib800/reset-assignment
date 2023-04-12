@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .banner-parent {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/images/banner/banner2.png");
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+.banner-parent{
+height: 100vh;
+width: 130%;
+background-image: url("/images/banner/banner3.png");
+background-repeat: no-repeat;
+display: flex;
+background-size: cover;
+align-items: center;
+justify-content: space-around;
+
+}
+.bnr-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+.bnr-description{
+    font-size: 20px;
+    font-weight: 50rem;
+}
+.banner-child {
+    text-align: end;
+}
+
+.btn-primary {
+    padding: 15px 35px;
+    border: 0px;
+    background-color: coral;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.failure-container{
+    display: flex;
+    background-image: linear-gradient(rgb(200, 207, 207), rgb(77, 25, 5));
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around; 
+}
+.item-description li{
+    list-style: none;
+}
+
+/* plan part */
+.plan-title{
+    text-align: center;
+    padding: 45px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.course-parent{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding:  90px;
+    display: flex;
+    align-items: ;
+}
+.mindset-part{
+    height: 30vh;
+    width: 50%;
+    background-image: url("/images/watch.png"),linear-gradient(rgb(200, 207, 207), rgb(105, 15, 9));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 35px 60px;
+    border-radius: 20px;  
+}
+.mindset-description{
+    margin-left: 20px 25px;
+    padding: 25px;
+}
+/* footer parent start */
+.footer-parent{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.ftr-img{
+    padding-top: 50px;
+}
+.mail-child{
+    height: 35px;
+    width: 200px;
+}
